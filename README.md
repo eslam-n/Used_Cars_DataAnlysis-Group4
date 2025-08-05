@@ -1,52 +1,53 @@
-<img width="1280" height="720" alt="Car_DA JPG" src="https://github.com/user-attachments/assets/e792cc32-c80b-45c3-bc98-eace947bc875" />
+# 🏎️🚗🚑Used Cars Data Analysis  
 
-## Project title
-Used Cars Data Analysis 
-## Description
-This project analyzes a dataset of used cars to extract insights on some key factors that influence the resale market. The analysis includes data cleaning, exploratory data analysis (EDA), and visualization to help the company's ability to make informed decisions.
+![Project Banner](https://github.com/user-attachments/assets/e792cc32-c80b-45c3-bc98-eace947bc875)  
 
-Key Features:
+## 📝 Description  
+Analysis of used car listings to identify pricing trends, popular models, and factors affecting resale value. Includes:  
 
-Data preprocessing & handling missing values
+- **Data cleaning** (missing values, outliers)  
+- **Exploratory Analysis** (brand popularity, age vs. mileage)  
+- **Visualizations** (Seaborn/Matplotlib)  
+- **Statistical analysis** (correlations, regression)  
 
-Exploratory analysis (brand popularity)
+---
 
-Data Visualization 
+## 🔢 Dataset  
+Collected from CarGurus in **September 2020** via custom Python scraper.  
 
-Correlation & regression analysis
+📌 **Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset)  
 
+---
 
-## Data Set
-This dataset was collected in September 2020 using a custom web scraper to extract used car listings from CarGurus.
-source: [Used cars Data]([https://www.google.com](https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset))
-
-
-## Code structure
-
+## 📂 Repository Structure  
+```
 project-repo/
+├── data/
+│ ├── raw/ # Original scraped data
+│ │ └── data_cars2.csv
+│ └── processed/ # Cleaned/transformed data
+│ └── modified_cars2.csv
 │
-├── Assets/ 
-│ │ ├── Figures/ 
-│ │ │ ├── Final Results.png
-│ │ │ ├── Availability.png
-│ │ │ ├── Popularity.png
-|
-├── Data/ 
-│ ├── Processed/ 
-│ │ ├── modified_cars2.csv
-│ ├── Raw/ 
-│ │ ├── data_cars2.csv
-│ 
-├── Notebooks/ 
-│ ├── final_used_cars_work.ipynb
+├── notebooks/ # Jupyter notebooks
+│ └── final_used_cars_work.ipynb
 │
-├── Presentations/ 
-│ │ ├── Project used Cars.pptx
-|
-├── README.md 
-└── requirements.txt 
+├── assets/ # Visualizations
+│ └── figures/
+│ ├── availability.png
+│ ├── popularity.png
+│ └── final_results.png
+│
+├── presentations/ # Supporting files
+│ └── project_used_cars.pptx
+│
+├── requirements.txt # Dependencies
+└── README.md
+```
+---
 
-## Dependencies
-Data Manipulation/Cleaning:  pandas
-Data Visualization:  seaborn, matplotlib 
-
+## ⚙️ Requirements  
+```bash
+!pip install pandas
+!pip install matplotlib
+!pip install seaborn
+```
