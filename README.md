@@ -26,7 +26,7 @@ project-repo/
 │ ├── raw/ # Original scraped data
 │ │ └── data_cars2.csv
 │ └── processed/ # Cleaned/transformed data
-│ └── modified_cars2.csv
+│   └── modified_cars2.csv
 │
 ├── notebooks/ # Jupyter notebooks
 │ └── final_used_cars_work.ipynb
