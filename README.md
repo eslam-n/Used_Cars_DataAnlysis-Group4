@@ -33,14 +33,13 @@ project-repo/
 │
 ├── assets/ # Visualizations
 │ └── figures/
-│ ├── availability.png
-│ ├── popularity.png
-│ └── final_results.png
+│  ├── availability.png
+│  ├── popularity.png
+│  └── final_results.png
 │
 ├── presentations/ # Supporting files
 │ └── project_used_cars.pptx
 │
-├── requirements.txt # Dependencies
 └── README.md
 ```
 ---
