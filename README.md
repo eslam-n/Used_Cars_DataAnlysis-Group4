@@ -31,10 +31,10 @@ project-repo/
 │ ├── raw/ # Original scraped data
 │ │ └── data_cars2.csv
 │ └── processed/ # Cleaned/transformed data
-│   └── modified_cars2.csv
+│   └──Processed data.csv
 │
 ├── notebooks/ # Jupyter notebooks
-│ └── final_used_cars_work.ipynb
+│ └── analysis_of_used_cars.ipynb
 │
 ├── assets/ # Visualizations
 │ └── figures/
